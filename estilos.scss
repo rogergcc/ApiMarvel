@@ -19,6 +19,9 @@ $fontDay:darkslategray;
 *, *::before, *::after {
     box-sizing: border-box;
   }
+*::selection{
+  background: rgba(251, 13, 13, 0.29);
+}
 h1 {
     margin: 0 5px 15px;
     font-size: 45px;
@@ -48,10 +51,12 @@ h1 {
     //display: inline-block;
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 90%;
+    padding: 0;
     list-style-type: none;
     margin: 1em auto;
-    //padding: 1em auto;
+    padding: 0;
+    justify-content: center;
   }
   
   .characters li {
