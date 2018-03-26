@@ -30,6 +30,11 @@ h1 {
   footer{
       font-size: .9em;
       text-align: center;
+      display: flex;
+      flex-direction: column;
+      .span-marvel{
+        color: #c00
+      }
   }
   .container {
     margin: 0 auto;
