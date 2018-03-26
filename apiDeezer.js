@@ -1,5 +1,5 @@
 
-var url = 'http://gateway.marvel.com/v1/public/events/29/characters?ts=1';
+var url = 'https://gateway.marvel.com/v1/public/events/29/characters?ts=1';
 var apikey = '91c5887afde6559383fe644fc7db6f57';
 var hash = '03ea1255703ef7755da11ac75c827640';
 
